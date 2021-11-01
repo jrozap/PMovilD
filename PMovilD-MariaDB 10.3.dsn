@@ -1,0 +1,8 @@
+[ODBC]
+DRIVER=MariaDB ODBC 2.0 Driver
+UID=root
+PORT=3306
+DATABASE=pmovild
+SERVER=localhost
+TCPIP=1
+DESCRIPTION={Pago Movil Dynamics}

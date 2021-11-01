@@ -1,0 +1,1685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA22332F-2473-4926-83CB-21AA87F668DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PMovilD.My.MyApplication</StartupObject>
+    <RootNamespace>PMovilD</RootNamespace>
+    <AssemblyName>PMovilD</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\PMovilD\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>PagoMovilD</ProductName>
+    <PublisherName>JR Sistemas24, Co.</PublisherName>
+    <SuiteName>PagoMovil</SuiteName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PMovilD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PMovilD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>C2PDynamics2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>04607DC89669C5F132E587A483E8A80EF59679B5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PMovilD_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Access, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="PMovilD" />
+    <Import Include="PMovilD.My" />
+    <Import Include="PMovilD.My.Resources" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.Odbc" />
+    <Import Include="System.Data.Sql" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Data.SqlTypes" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.IO" />
+    <Import Include="System.Management" />
+    <Import Include="System.Net" />
+    <Import Include="System.Resources" />
+    <Import Include="System.Runtime" />
+    <Import Include="System.Text" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcercaDe.designer.vb">
+      <DependentUpon>AcercaDe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AcercaDe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="DPMDiario.Designer.vb">
+      <DependentUpon>DPMDiario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMDiario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMSettings.Designer.vb">
+      <DependentUpon>DPMSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMInfoSys.designer.vb">
+      <DependentUpon>DPMInfoSys.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMInfoSys.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMMonitor.Designer.vb">
+      <DependentUpon>DPMMonitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMMonitor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PMovilDM.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMovilDM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DPMFrec.Designer.vb">
+      <DependentUpon>DPMFrec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMFrec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMStart.designer.vb">
+      <DependentUpon>DPMStart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMStart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMCatCta.Designer.vb">
+      <DependentUpon>DPMCatCta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMCatCta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMMayor.Designer.vb">
+      <DependentUpon>DPMMayor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMMayor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PMovilDM.vb">
+      <DependentUpon>PMovilDM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMovilM.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PMovilDS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMovilDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DPMLogV.Designer.vb">
+      <DependentUpon>DPMLogV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMLogV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMPrint.Designer.vb">
+      <DependentUpon>DPMPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMmenu.Designer.vb">
+      <DependentUpon>DPMmenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMPagoC.Designer.vb">
+      <DependentUpon>DPMPagoC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMPagoC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMPagoM.Designer.vb">
+      <DependentUpon>DPMPagoM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMPagoM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMBankL.Designer.vb">
+      <DependentUpon>DPMBankL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMBankL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMDynamics.Designer.vb">
+      <DependentUpon>DPMDynamics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMDynamics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMAccess.Designer.vb">
+      <DependentUpon>DPMAccess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMAccess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMMariaDB.Designer.vb">
+      <DependentUpon>DPMMariaDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMMariaDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMPostgre.Designer.vb">
+      <DependentUpon>DPMPostgre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMPostgre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPMLic.Designer.vb">
+      <DependentUpon>DPMLic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPMLic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AcercaDe.resx">
+      <DependentUpon>AcercaDe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMAccess.resx">
+      <DependentUpon>DPMAccess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMBankL.resx">
+      <DependentUpon>DPMBankL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMCatCta.resx">
+      <DependentUpon>DPMCatCta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMDynamics.resx">
+      <DependentUpon>DPMDynamics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMLic.resx">
+      <DependentUpon>DPMLic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMLogV.resx">
+      <DependentUpon>DPMLogV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMMariaDB.resx">
+      <DependentUpon>DPMMariaDB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMMayor.resx">
+      <DependentUpon>DPMMayor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMPagoM.resx">
+      <DependentUpon>DPMPagoM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMPostgre.resx">
+      <DependentUpon>DPMPostgre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMPrint.resx">
+      <DependentUpon>DPMPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMPagoC.resx">
+      <DependentUpon>DPMPagoC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMmenu.resx">
+      <DependentUpon>DPMmenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMFrec.resx">
+      <DependentUpon>DPMFrec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMStart.resx">
+      <DependentUpon>DPMStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMDiario.resx">
+      <DependentUpon>DPMDiario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMSettings.resx">
+      <DependentUpon>DPMSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMInfoSys.resx">
+      <DependentUpon>DPMInfoSys.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPMMonitor.resx">
+      <DependentUpon>DPMMonitor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="PMovilDM.xsc">
+      <DependentUpon>PMovilDM.xsd</DependentUpon>
+    </None>
+    <None Include="PMovilDM.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMovilDM.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PMovilDM.xss">
+      <DependentUpon>PMovilDM.xsd</DependentUpon>
+    </None>
+    <None Include="PMovilDS.xsc">
+      <DependentUpon>PMovilDS.xsd</DependentUpon>
+    </None>
+    <None Include="PMovilDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMovilDS.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PMovilDS.xss">
+      <DependentUpon>PMovilDS.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTesoro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Access2010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AcrobatRDR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Analisis01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrwDwn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrwLf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrwRg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrwUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bioaccess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biodynamics1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bkp1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_21465.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_22668.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendarday_January_month_calendari_1584.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardiogram_icon-icons.com_66072.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardiogram_icon-icons.com_660721.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarRepair_icon-icons.com_74915.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart_17822.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chrome06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseApp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseApp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\datos2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB20.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dbbkp1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dbrecovery.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DDental1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DDental11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\devwindows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DineroRapidoBBVA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollars_98561.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dynamics-logo_mobile-1571171671.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eft1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EpsonPrt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EpsonPrt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\españa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel2013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExLab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExOrMRS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExpandArrw1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExtDrv01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FastForw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FastRew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Female-MD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Female-MD1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Female-MD2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fldAdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FldBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fldDel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FldGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FldRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GDrive1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gear01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gear02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gear021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gmail01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gmail02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gmail011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gmail021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Google.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HDDVD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HDDVD1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HematologiaMRS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HlpBook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeSrv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeSrv1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HPLaser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HPLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-bones-realistic-x-ray.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-bones-realistic-x-ray1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Insert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Insert1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iPhone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listBlank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ListOK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo DDental .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Dynamics app.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maestro-Ecomm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male-MD1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male-MD2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male-MD3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MariaDB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDAdd.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDAvatar3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDDel.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDLogo 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDLogo 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDLogo 12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDLogo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDLogo2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDSmartP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDSQL.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDThermometer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MDThermometer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical-03_icon-icons.com_73941.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical-04_icon-icons.com_73919.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical-04_icon-icons.com_739191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medifarmaV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSAccessDB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSAvatar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSBanner1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSBannerL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSbg.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSCliSrv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSDevBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSDevGray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSDevGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSExHec2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSGmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSGoogle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSHecEx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSHelp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSInitL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSLabSrv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSLogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSLogo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSLogo4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSMariaDB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSMriSrv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSMriSrv2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSmriSrv3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSmriSrv4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSMySQL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSPhoneIc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSPostGre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSScanTAC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRStacND.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRStacPDF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRStacSrv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSTwitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSXRayS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSXraySr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSZoomI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSZoomI1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRSZoomO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mysql.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mysql.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MySQLlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OkIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OkIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenProy02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portable-x-ray-services-250x250.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PostgreSQL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrgAcc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrgFld.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrinterSetupInk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProyectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProyectIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProyectPlan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrtSetup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrtSetup1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recycle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redvital1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restore01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restore2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resumen1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rewind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rewind-arrows_icon-icons.com_71586.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEBg.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEHelpD1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEHelpD2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMDSRV 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMDSRV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMedServ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMedSrv1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMedSrv2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMedSrv3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMedSrv4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMedSrv5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMedSrv6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMedSrv41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMS01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMS02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMS03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SANEMS04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scalpel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScrList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Server.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SetupFld.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SetupHPLaser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SfwUpdate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoppayment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoppayment1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-basket1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-basket-accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-basket-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solicitud exlab1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpainFlag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SQL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SQL01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SQL02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SQL03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SQL04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stetoskop1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SysIO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAC-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TACmrs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunderbird.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toolbox01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tools1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twitter1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USBDrv01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USBFlash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USBFlash1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserConn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserData.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserData1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserData2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserDataD.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserDataS.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserDisc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USFlag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaccine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VzlaFlag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whatsapp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Win10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Win101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows Server 2019.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Word1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrench_tools_configuration_setting_settings_icon_189322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\www.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMTesoro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBancamiga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBancamiga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanescoPM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bancamiga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MercantilL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smsSending.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BNCNet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smartphone-vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMVenC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMExterior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMExterior.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MPBCaribe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BVCLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EFTLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BdVPM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PagoD2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eft-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zelle EFI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zelle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paypal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chaseMB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SamsungS8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bdv3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PExpressBOD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMCaroni.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBNacCre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBVenezuela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBicentenario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DineroRapidoBBVA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBanesco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tpago.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PagoD2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BFC2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BFC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caroni2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caroni1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delsur2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delsur1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbp2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bod2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bod1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BVC2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bdv2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bdv1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BNC2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BNC1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mercantil2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banesco2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banesco1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbva2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BofaMG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono-paypal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dinero Rapido BBVA.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMovil2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMovil.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancaribe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bvc1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bvc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mercantil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbva3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbva1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTesoro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChaseMB Transfer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bofa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eft-process.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMTesoro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMovil3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estados Unidos de Venezuela.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smsicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PagoMovil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BancoExterior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eft.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mobilepay.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mobilepay1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DynamicsPM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DPMMariaDB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DPMAccess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DPMPostgre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogSrch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DPMPrtS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DPMPrt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DPMPrtV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DPMSetA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DPMSetup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DPMHelp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DPMSrchP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DPMHlpS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VStudio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\citibank.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanFANB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BPSoberano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanPlus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BID.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BActivo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiBanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAgricolaV.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bancrecer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B100Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BPlaza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BSofitasa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBanPlus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBintD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMMibanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMSofitasa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBGente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBcrecer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBFanB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBActivo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMBPlaza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMCiti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMAgricola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PM100Bco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C2PDynamics1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C2PDynamics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DynamicsC2P1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DynamicsC2P.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MTransfer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DynC2P.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C2PDynamicsL3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C2pDynamicsL2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DynamicsC2PL1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C2PDynamics2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="C2PDynamics2.ico" />
+    <None Include="Resources\CarRepair_icon-icons.com_749151.png" />
+    <None Include="Resources\ParmChg.png" />
+    <None Include="Resources\bcv.png" />
+    <None Include="Resources\LDynamics.png" />
+    <None Include="Resources\C2PDyn.png" />
+    <None Include="Resources\C2P001.png" />
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
