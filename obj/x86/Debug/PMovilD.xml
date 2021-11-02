@@ -1,0 +1,2566 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PMovilD
+</name>
+</assembly>
+<members>
+<member name="T:PMovilD.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Access2010">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.AcrobatRDR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Analisis01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ArrwDwn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ArrwLf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ArrwRg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ArrwUp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.B100Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BActivo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BAgricolaV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Bancamiga">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bancaribe">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BancoExterior">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Bancrecer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.banesco1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.banesco2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BanescoPM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BanFANB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BanPlus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bbp1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bbp2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bbva1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bbva2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bbva3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bcv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bdv1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bdv2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bdv3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BdVPM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bext">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BFC1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BFC2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BGente">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BID">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bioaccess">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.biodynamics1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bkp1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BNC1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BNC2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BNCNet">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bod1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bod2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bofa">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BofaMG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.book10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BPlaza">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BPSoberano">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BSofitasa">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BTesoro">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BTesoro1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bvc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.bvc1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BVC2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.BVCLogo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.C2P001">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.C2PDyn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.C2PDynamics">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.C2PDynamics1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.C2PDynamics2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.C2pDynamicsL2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.C2PDynamicsL3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.calculator1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.calculator3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Calendar1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.calendar2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Calendar3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Calendar4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Cardio1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.cardio2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.caroni1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.caroni2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.CarRepair_icon_icons_com_74915">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Cart1702">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.chaseMB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ChaseMB_Transfer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Chrome06">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.citibank">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.clamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.CloseApp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.CloseApp1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.datos2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB04">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB05">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB06">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB07">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB08">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB09">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DB20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.dbbkp1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.dbrecovery">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DDental1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DDental11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Delete02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.delsur1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.delsur2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DentalL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.devwindows">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Dinero_Rapido_BBVA">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DineroRapidoBBVA">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DineroRapidoBBVA1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DPMAccess">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DPMHelp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DPMHlpS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DPMMariaDB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DPMPostgre">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DPMPrt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DPMPrtS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DPMPrtV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DPMSetA">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DPMSetup">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DPMSrchP">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DynamicsApp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DynamicsC2P">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DynamicsC2P1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DynamicsC2PL1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DynamicsLD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DynamicsPM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.DynC2P">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.eft">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.eft_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.eft_process">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.eft1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.EFTLogo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.EpsonPrt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.EpsonPrt1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.españa">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Estados_Unidos_de_Venezuela">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Excel1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Excel11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Excel2013">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ExLab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ExOrMRS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ExpandArrw1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ExtDrv01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.FastForw">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.FastRew">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.FemaleMD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.FemaleMD1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.FemaleMD2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.fldAdd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.FldBlue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.fldDel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.FldGreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.FldRed">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.folder01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.folder02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.folder03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.folder04">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.folder05">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.folder06">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.forward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.GDrive1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Gear01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Gear02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Gear021">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Gmail01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Gmail011">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Gmail02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Gmail021">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Google">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.HDDVD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.HDDVD1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.help01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.help011">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Help02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Help021">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.help2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.HematologiaMRS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.HlpBook">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Home1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.HomeRep">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.HomeSrv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.HomeSrv1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.hp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.HPLaser">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.HPLogo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.icono_paypal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.info1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.info2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.InfoH">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Insert">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Insert1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.iPhone">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.LDynamics">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.List03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.listBlank">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ListOK">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.LogSrch">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Maestro_Ecomm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MaleMD1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MaleMD2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MaleMD3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MariaDB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MDAdd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MDAvatar3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MDDel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MDLogo_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MDLogo_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MDLogo_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MDLogo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MDLogo2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MDSmartP">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MDSQL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MDThermometer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MDThermometer1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.medifarmaV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.mercantil">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.mercantil2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MercantilL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MiBanco">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Microscope1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Microscope2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.mobilepay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.mobilepay1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MPBCaribe">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSAccessDB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSAvatar1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSBanner1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSBannerL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSbg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSCliSrv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSDevBlue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSDevGray">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSDevGreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSExHec2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSGmail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSGoogle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSHecEx">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSHelp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSInitL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSLabSrv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSLogo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSLogo2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSLogo4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSMariaDB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSMriSrv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSMriSrv2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSmriSrv3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSmriSrv4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSMySQL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSPhoneIc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSPostGre">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSScanTAC">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRStacND">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRStacPDF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRStacSrv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSTwitter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSXRayS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSXraySr">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSZoomI">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSZoomI1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MRSZoomO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MTransfer1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.mysql">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.mysql1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.MySQLlogo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.OkIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.OkIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.OpenProy02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PagoD2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PagoD21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PagoMovil">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ParmChg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.paypal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PExpressBOD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PM100Bco">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMAgricola">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBActivo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBancamiga">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBancamiga1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBanesco">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBanPlus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBcrecer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBFanB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBGente">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBicentenario">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBintD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBNacCre">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBPlaza">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMBVenezuela">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMCaroni">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMCiti">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMExterior">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMExterior1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMMibanco">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMovil">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMovil2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMovil3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMSofitasa">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMTesoro">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMTesoro1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PMVenC">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PostgreSQL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PrgAcc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PrgFld">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PrinterSetupInk">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ProyectIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ProyectIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ProyectPlan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PrtSetup">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.PrtSetup1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Recipe">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Recycle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.redvital1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Refresh02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Refresh1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Refresh11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Restore01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.restore2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.resumen1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.rewind">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.rewind_arrows_icon_icons_com_71586">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SamsungS8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEBg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEHelpD1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEHelpD2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMDSRV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMDSRV1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMedServ">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMedSrv1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMedSrv2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMedSrv3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMedSrv4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMedSrv41">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMedSrv5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMedSrv6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMS01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMS02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMS03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SANEMS04">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SBAccept">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SBAdd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.scalpel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.screen1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ScrList">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Server">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SetupFld">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SetupHPLaser">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SExLab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SfwUpdate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.ShopBasket">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.shoppayment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.shoppayment1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.smartphone_vector">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.smsicon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.smsSending">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SpainFlag">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SQL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SQL01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SQL02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SQL03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SQL04">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Stetoscope">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.stetoskop1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.SysIO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC612">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TAC9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TACM3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TACM4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.TACmrs">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.thunderbird">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Toolbox01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Tools">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Tools1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Tpago">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.twitter1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.USBDrv01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.USBFlash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.USBFlash1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.USDollars">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.UserConn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.UserData">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.UserData1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.UserData2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.UserDataD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.UserDataS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.UserDisc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.USFlag">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Vaccine">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.VStudio">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.VzlaFlag">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Whatsapp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Win10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Win101">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Windows10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Windows7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.WinSrv2019">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Word1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Wrench">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.www">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Xrays1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Xrays2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.Xrays3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.zelle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PMovilD.My.Resources.Resources.zelle_EFI">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_catctaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_cgpmovDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_dynamicseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_frecuentesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_isobnkDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_structDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_tlogDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_usersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_worrkmgDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_catctaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_cgpmovRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_dynamicseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_frecuentesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_isobnkRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_structRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_tlogRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_usersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_worrkmgRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_catctaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_cgpmovRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_dynamicseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_frecuentesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_isobnkRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_structRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_tlogRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_usersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDM.mrs_worrkmgRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDMTableAdapters.catctaTA">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDMTableAdapters.cpgmovTA">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDMTableAdapters.dynamicseTA">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDMTableAdapters.frecuentesTA">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDMTableAdapters.isobnkTA">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDMTableAdapters.structTA">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDMTableAdapters.tlogTA">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDMTableAdapters.usersTA">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDMTableAdapters.workmgTA">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDMTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PMovilD.PMovilDMTableAdapters.TableAdapterManager.UpdateUpdatedRows(PMovilD.PMovilDM,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PMovilD.PMovilDMTableAdapters.TableAdapterManager.UpdateInsertedRows(PMovilD.PMovilDM,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PMovilD.PMovilDMTableAdapters.TableAdapterManager.UpdateDeletedRows(PMovilD.PMovilDM,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PMovilD.PMovilDMTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PMovilD.PMovilDMTableAdapters.TableAdapterManager.UpdateAll(PMovilD.PMovilDM)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDMTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDMTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_FrecuentesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_StructDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_WorkMGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_DynamicsEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_CGPMovDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_CatCtaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_TLogDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_ISOBnkDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_UsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_FrecuentesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_StructRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_WorkMGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_DynamicsERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_CGPMovRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_CatCtaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_TLogRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_ISOBnkRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_UsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_FrecuentesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_StructRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_WorkMGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_DynamicsERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_CGPMovRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_CatCtaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_TLogRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_ISOBnkRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDS.MRS_UsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDSTableAdapters.MRS_FrecuentesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDSTableAdapters.MRS_StructTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDSTableAdapters.MRS_WorkMGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDSTableAdapters.MRS_DynamicsETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDSTableAdapters.MRS_CGPMovTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDSTableAdapters.MRS_CatCtaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDSTableAdapters.MRS_TLogTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDSTableAdapters.MRS_ISOBnkTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDSTableAdapters.MRS_UsersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PMovilD.PMovilDSTableAdapters.TableAdapterManager.UpdateUpdatedRows(PMovilD.PMovilDS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PMovilD.PMovilDSTableAdapters.TableAdapterManager.UpdateInsertedRows(PMovilD.PMovilDS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PMovilD.PMovilDSTableAdapters.TableAdapterManager.UpdateDeletedRows(PMovilD.PMovilDS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PMovilD.PMovilDSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PMovilD.PMovilDSTableAdapters.TableAdapterManager.UpdateAll(PMovilD.PMovilDS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PMovilD.PMovilDSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

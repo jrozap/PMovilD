@@ -89,7 +89,7 @@ Public Class DPMMayor
         MonthN.Text = MesString(CurrMth)
 
         'Carga Inicial de Movimientos Contables
-        cmdSQLMov = "SELECT * FROM MRS_CGPMov ORDER BY RPM_FechaT"
+        cmdSQLMov = "SELECT * FROM MRS_CGPMov ORDER BY RPM_Id, RPM_FechaT"
         DAdpMov = New OdbcDataAdapter(cmdSQLMov, MRSDBcon)
         DAdpMov.Fill(DSetMov, "MovCta")
 
@@ -210,9 +210,9 @@ Public Class DPMMayor
         'Movimientos de la Cuenta Seleccionada (del Mes Actual)
         Select Case Len(Trim(CodC.Text))
             Case 3
-                cmdSQLMov = "SELECT * FROM MRS_CGPMov WHERE RPM_MayorA ='" & CodC.Text & "' and MONTH(RPM_FechaT) = " & CurrMth & " ORDER BY RPM_FechaT"
+                cmdSQLMov = "SELECT * FROM MRS_CGPMov WHERE RPM_MayorA ='" & CodC.Text & "' and MONTH(RPM_FechaT) = " & CurrMth & " ORDER BY RPM_Id, RPM_FechaT"
             Case 7
-                cmdSQLMov = "SELECT * FROM MRS_CGPMov WHERE RPM_CtaCble ='" & CodC.Text & "' and MONTH(RPM_FechaT) = " & CurrMth & " ORDER BY RPM_FechaT"
+                cmdSQLMov = "SELECT * FROM MRS_CGPMov WHERE RPM_CtaCble ='" & CodC.Text & "' and MONTH(RPM_FechaT) = " & CurrMth & " ORDER BY RPM_Id, RPM_FechaT"
         End Select
         DAdpMov = New OdbcDataAdapter(cmdSQLMov, MRSDBcon)
         DAdpMov.Fill(DSetMov, "MovCta")
@@ -222,7 +222,7 @@ Public Class DPMMayor
 
         DelWorkA()
 
-        cmdSQLWA = "SELECT * FROM MRS_WorkMG"
+        cmdSQLWA = "SELECT * FROM MRS_WorkMG ORDER BY WRK_Id, WRK_Fecha"
         DAdpWA = New OdbcDataAdapter(cmdSQLWA, MRSDBcon)
         DAdpWA.Fill(DSetWA, "Mayor")
 
@@ -468,9 +468,9 @@ Public Class DPMMayor
             'Movimientos de la Cuenta Seleccionada (del Mes Actual)
             Select Case Len(Trim(CodC.Text))
                 Case 3
-                    cmdSQLMov = "SELECT * FROM MRS_CGPMov WHERE RPM_MayorA ='" & CodC.Text & "' and MONTH(RPM_FechaT) = " & CurrMth & " ORDER BY RPM_FechaT"
+                    cmdSQLMov = "SELECT * FROM MRS_CGPMov WHERE RPM_MayorA ='" & CodC.Text & "' and MONTH(RPM_FechaT) = " & CurrMth & " ORDER BY RPM_Id, RPM_FechaT"
                 Case 7
-                    cmdSQLMov = "SELECT * FROM MRS_CGPMov WHERE RPM_CtaCble ='" & CodC.Text & "' and MONTH(RPM_FechaT) = " & CurrMth & " ORDER BY RPM_FechaT"
+                    cmdSQLMov = "SELECT * FROM MRS_CGPMov WHERE RPM_CtaCble ='" & CodC.Text & "' and MONTH(RPM_FechaT) = " & CurrMth & " ORDER BY RPM_Id, RPM_FechaT"
             End Select
             DAdpMov = New OdbcDataAdapter(cmdSQLMov, MRSDBcon)
             DAdpMov.Fill(DSetMov, "MovCta")
@@ -480,7 +480,7 @@ Public Class DPMMayor
 
             DelWorkA()
 
-            cmdSQLWA = "SELECT * FROM MRS_WorkMG"
+            cmdSQLWA = "SELECT * FROM MRS_WorkMG ORDER BY WRK_Id, WRK_Fecha"
             DAdpWA = New OdbcDataAdapter(cmdSQLWA, MRSDBcon)
             DAdpWA.Fill(DSetWA, "Mayor")
 
@@ -563,8 +563,8 @@ Public Class DPMMayor
 
         ConnSQLTF.ConnectionString = Global.PMovilD.My.MySettings.Default.PMDConnect
 
-        iSQLLog = "INSERT INTO MRS_WorkMG" & _
-         "(WRK_Fecha, WRK_CodCta, WRK_DesCta, WRK_Compr, WRK_DesAs, WRK_Debe, WRK_Haber, WRK_Saldo)" & _
+        iSQLLog = "INSERT INTO MRS_WorkMG" &
+         "(WRK_Fecha, WRK_CodCta, WRK_DesCta, WRK_Compr, WRK_DesAs, WRK_Debe, WRK_Haber, WRK_Saldo)" &
          " VALUES (?, ?, ?, ?, ?, ?, ?, ?) "
 
         Dim SQLCmd As New OdbcCommand(iSQLLog, ConnSQLTF)
@@ -654,4 +654,5 @@ Public Class DPMMayor
 
         DelWorkA = True
     End Function
+
 End Class

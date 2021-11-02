@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="PMovilD.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="PMovilD.My.MySettings.MRSDataC" connectionString="Driver={Microsoft Access Driver (*.mdb, *.accdb)};dbq=D:\Documentos\PMovilD\PMovilD.accdb;defaultdir=D:\Documentos\PMovilD;driverid=25;fil=MS Access;filedsn=D:\Documentos\PMovilD\PMovilD-MSAccess.dsn;maxbuffersize=2048;maxscanrows=8;pagetimeout=5;safetransactions=0;threads=3;uid=admin;usercommitsync=Yes"
+            providerName="System.Data.Odbc" />
+    </connectionStrings>
+    <system.diagnostics>
+        <sources>
+            <!-- This section defines the logging configuration for My.Application.Log -->
+            <source name="DefaultSource" switchName="DefaultSwitch">
+                <listeners>
+                    <add name="FileLog"/>
+                    <!-- Uncomment the below section to write to the Application Event Log -->
+                    <!--<add name="EventLog"/>-->
+                </listeners>
+            </source>
+        </sources>
+        <switches>
+            <add name="DefaultSwitch" value="Information" />
+        </switches>
+        <sharedListeners>
+            <add name="FileLog"
+                 type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+                 initializeData="FileLogWriter"/>
+            <!-- Uncomment the below section and replace APPLICATION_NAME with the name of your application to write to the Application Event Log -->
+            <!--<add name="EventLog" type="System.Diagnostics.EventLogTraceListener" initializeData="APPLICATION_NAME"/> -->
+        </sharedListeners>
+    </system.diagnostics>
+    <userSettings>
+        <PMovilD.My.MySettings>
+            <setting name="UserLic" serializeAs="String">
+                <value>PMD-2021-185942-7556</value>
+            </setting>
+            <setting name="UserName" serializeAs="String">
+                <value>Jaime M. Roza Pedreira</value>
+            </setting>
+            <setting name="DBType" serializeAs="String">
+                <value>PostgreSQL14</value>
+            </setting>
+            <setting name="DBName" serializeAs="String">
+                <value>PMovilD</value>
+            </setting>
+            <setting name="PathAPP" serializeAs="String">
+                <value>\Program Files\PMovilD</value>
+            </setting>
+            <setting name="AccPath" serializeAs="String">
+                <value>\Program Files\PMovilD</value>
+            </setting>
+            <setting name="InstallDte" serializeAs="String">
+                <value>2021-07-20</value>
+            </setting>
+            <setting name="UserID" serializeAs="String">
+                <value>jrozap</value>
+            </setting>
+            <setting name="UserType" serializeAs="String">
+                <value>Admin</value>
+            </setting>
+            <setting name="MRSDataPG" serializeAs="String">
+                <value>Dsn=PMovilD - Postgre;database=pmovild;server=127.0.0.1;port=5432;uid=root;sslmode=disable;readonly=0;protocol=7.4;fakeoidindex=0;showoidcolumn=0;rowversioning=0;showsystemtables=0;fetch=100;unknownsizes=0;maxvarcharsize=255;maxlongvarcharsize=8190;debug=0;commlog=0;usedeclarefetch=0;textaslongvarchar=1;unknownsaslongvarchar=0;boolsaschar=1;parse=0;lfconversion=1;updatablecursors=1;trueisminus1=0;bi=0;byteaaslongvarbinary=1;useserversideprepare=1;lowercaseidentifier=0;d6=-101;optionalerrors=0;xaopt=1</value>
+            </setting>
+            <setting name="MRSDataMDB" serializeAs="String">
+                <value>Dsn=PMovilD - MariaDB;uid=root</value>
+            </setting>
+            <setting name="MRSDataAcc" serializeAs="String">
+                <value>Dsn=PMovilD - MSAccess 2010/2019;dbq=D:\Documentos\PMovilD\PMovilD.accdb;driverid=25;fil=MS Access;maxbuffersize=2048;pagetimeout=5;uid=admin</value>
+            </setting>
+            <setting name="CiaName" serializeAs="String">
+                <value>RedVital</value>
+            </setting>
+            <setting name="CiaLogoP" serializeAs="String">
+                <value>D:\Documentos\PMovilD\Resources\redvital1.png</value>
+            </setting>
+            <setting name="PMovilDF" serializeAs="String">
+                <value>2021-09-10</value>
+            </setting>
+        </PMovilD.My.MySettings>
+    </userSettings>
+</configuration>

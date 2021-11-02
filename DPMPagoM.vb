@@ -3197,4 +3197,18 @@ Public Class DPMPagoM
 
         UpdateLimit = True
     End Function
+
+    Private Sub DPMPagoM_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        '----------------------------------------------------------------------------------------------------------------------------------------'
+        ' JR Sistemas24, Co.                                                                                                                     '
+        ' PMovilD - Pago Movil Dynamics - Copyright (C) 2021                                                                                     '
+        ' Desarrollado por: Lic. Jaime M. Roza Pedreira                                                                                          '
+        '----------------------------------------------------------------------------------------------------------------------------------------'
+        '                                                                                                                                        '
+        ' Modulo: DPMPagoM - Pago Movil Dynamics                                                                                                 '   
+        ' Sub: DPMPagoM_Closed  - Eventos de Cierre de forma                                                                                     '
+        '                                                                                                                                        '
+        '----------------------------------------------------------------------------------------------------------------------------------------'
+        DPMMonitor.Close()
+    End Sub
 End Class

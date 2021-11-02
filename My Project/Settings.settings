@@ -1,0 +1,117 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="UserLic" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PMD-2021-889651-7556</Value>
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jaime M. Roza Pedreira</Value>
+    </Setting>
+    <Setting Name="DBType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MS Access2010/19</Value>
+    </Setting>
+    <Setting Name="DBName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PMovilD</Value>
+    </Setting>
+    <Setting Name="PathAPP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PMovilD</Value>
+    </Setting>
+    <Setting Name="AccPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C\PMovilD</Value>
+    </Setting>
+    <Setting Name="InstallDte" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2021-09-15</Value>
+    </Setting>
+    <Setting Name="UserID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">jrozap</Value>
+    </Setting>
+    <Setting Name="UserType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Admin</Value>
+    </Setting>
+    <Setting Name="MRSDataPG" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dsn=PMovilD - Postgre;database=pmovild;server=127.0.0.1;port=5432;uid=root;sslmode=disable;readonly=0;protocol=7.4;fakeoidindex=0;showoidcolumn=0;rowversioning=0;showsystemtables=0;fetch=100;unknownsizes=0;maxvarcharsize=255;maxlongvarcharsize=8190;debug=0;commlog=0;usedeclarefetch=0;textaslongvarchar=1;unknownsaslongvarchar=0;boolsaschar=1;parse=0;lfconversion=1;updatablecursors=1;trueisminus1=0;bi=0;byteaaslongvarbinary=1;useserversideprepare=1;lowercaseidentifier=0;d6=-101;optionalerrors=0;xaopt=1</Value>
+    </Setting>
+    <Setting Name="MRSDataMDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Driver={MariaDB ODBC 3.1 Driver};uid=root;passwd=jr632504$;description=PMovilD-MariaDB;tcpip=1;server=127.0.0.1;database=pmovild;port=3306</Value>
+    </Setting>
+    <Setting Name="MRSDataAcc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Driver={Microsoft Access Driver (*.mdb, *.accdb)};dbq=D:\Documentos\PMovilD\PMovilD.accdb;defaultdir=D:\Documentos\PMovilD;driverid=25;fil=MS Access;filedsn=D:\Documentos\PMovilD\PMovilD-MSAccess.dsn;maxbuffersize=2048;maxscanrows=8;pagetimeout=5;safetransactions=0;threads=3;uid=admin;usercommitsync=Yes</Value>
+    </Setting>
+    <Setting Name="CiaName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">RedVital</Value>
+    </Setting>
+    <Setting Name="CiaLogoP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Documentos\PMovilD\Resources\redvital1.png</Value>
+    </Setting>
+    <Setting Name="PMovilDF" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2021-09-15</Value>
+    </Setting>
+    <Setting Name="PMDConnect" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Driver={Microsoft Access Driver (*.mdb, *.accdb)};dbq=D:\Documentos\PMovilD\PMovilD.accdb;defaultdir=D:\Documentos\PMovilD;driverid=25;fil=MS Access;filedsn=D:\Documentos\PMovilD\PMovilD-MSAccess.dsn;maxbuffersize=2048;maxscanrows=8;pagetimeout=5;safetransactions=0;threads=3;uid=admin;usercommitsync=Yes&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Driver={Microsoft Access Driver (*.mdb, *.accdb)};dbq=D:\Documentos\PMovilD\PMovilD.accdb;defaultdir=D:\Documentos\PMovilD;driverid=25;fil=MS Access;filedsn=D:\Documentos\PMovilD\PMovilD-MSAccess.dsn;maxbuffersize=2048;maxscanrows=8;pagetimeout=5;safetransactions=0;threads=3;uid=admin;usercommitsync=Yes</Value>
+    </Setting>
+    <Setting Name="AsientoN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">000</Value>
+    </Setting>
+    <Setting Name="CierreD" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2021-09-30</Value>
+    </Setting>
+    <Setting Name="pmovildConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Driver={MariaDB ODBC 3.1 Driver};uid=root;passwd=jr632504$;description=PMovilD-MariaDB;tcpip=1;server=127.0.0.1;database=pmovild;port=3306&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Driver={MariaDB ODBC 3.1 Driver};uid=root;passwd=jr632504$;description=PMovilD-MariaDB;tcpip=1;server=127.0.0.1;database=pmovild;port=3306</Value>
+    </Setting>
+    <Setting Name="UserIDMDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">root</Value>
+    </Setting>
+    <Setting Name="UserIDPG" Type="System.String" Scope="User">
+      <Value Profile="(Default)">root</Value>
+    </Setting>
+    <Setting Name="UserIDAcc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">admin</Value>
+    </Setting>
+    <Setting Name="passwdMDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">jr632504$</Value>
+    </Setting>
+    <Setting Name="passwdPG" Type="System.String" Scope="User">
+      <Value Profile="(Default)">jmrp6122625</Value>
+    </Setting>
+    <Setting Name="passwdAcc" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MDBipV4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="PGipV4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="dsnMDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PMovilD-MariaDB</Value>
+    </Setting>
+    <Setting Name="dsnPG" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PMovilD-PostgreSQL</Value>
+    </Setting>
+    <Setting Name="dsnAcc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PMovilD-MSAccess</Value>
+    </Setting>
+    <Setting Name="currDSN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PMovilD-MSAccess</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Dsn=PMovilD - MSAccess 2010/2019;dbq=D:\Documentos\PMovilD\PMovilD.accdb;driverid=25;fil=MS Access;maxbuffersize=2048;pagetimeout=5&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Dsn=PMovilD - MSAccess 2010/2019;dbq=D:\Documentos\PMovilD\PMovilD.accdb;driverid=25;fil=MS Access;maxbuffersize=2048;pagetimeout=5</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
